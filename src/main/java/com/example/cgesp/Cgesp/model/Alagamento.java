@@ -1,4 +1,4 @@
-package com.example.cgesp.Cgesp;
+package com.example.cgesp.Cgesp.model;
 
 import jakarta.persistence.*;
 import lombok.Data; // Usando Lombok para getters/setters
