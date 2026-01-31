@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import com.example.cgesp.Cgesp.dto.AlagamentoDTO;
 import com.example.cgesp.Cgesp.model.Alagamento;
 import com.example.cgesp.Cgesp.repository.AlagamentoRepository;
-import com.example.cgesp.Cgesp.service.CgeScraperService;
+import com.example.cgesp.Cgesp.service.AlagamentoScraperService;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 public class AlagamentoController {
 
     @Autowired
-    private CgeScraperService scraperService;
+    private AlagamentoScraperService scraperService;
 
     @Autowired
     private AlagamentoRepository repository;

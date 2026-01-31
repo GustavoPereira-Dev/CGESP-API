@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CgeScraperService {
+public class AlagamentoScraperService {
 
 	private static final String URL_BASE = "https://www.cgesp.org/v3/alagamentos.jsp";
 
